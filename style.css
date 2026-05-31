@@ -20,11 +20,10 @@ header {
     position:fixed;
     z-index: 1;
 }
-header img{
-    height: 88px;
-    width: 150px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+#Hostinger_logo {
+    height: max-content;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 #login{
@@ -148,7 +147,7 @@ input[type="radio"] {
 }
 #h1 {
     height: 64px;
-    width: 736px;
+    width: max-content;
     margin-bottom: 32px;
 }
 #mid_title {
@@ -192,16 +191,22 @@ input[type="radio"] {
     align-items: center;
     justify-content: center;
 }
-
+.search_input {
+    display: flex;
+}
 .search_input input{
 
     width: 558px;
-    height: 48px;
+    /*height: 48px;*/
     border: none;
+    align-items: center;
 }
 .search_input input{
     outline:none;
+    height: inherit;
 }
+
+
 
 .templates_list_section{
     height: 850.28px;
